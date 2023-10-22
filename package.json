@@ -1,0 +1,25 @@
+{
+  "name": "rust-document",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/46ki75/rust-document.git"
+  },
+  "author": "Chomolungma Shirayuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/46ki75/rust-document/issues"
+  },
+  "homepage": "https://github.com/46ki75/rust-document#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.22"
+  }
+}
